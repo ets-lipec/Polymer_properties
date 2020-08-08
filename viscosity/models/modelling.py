@@ -21,6 +21,8 @@ class Model:
         self.deck = deck
         self.polymer = polymer
 
+
+    # [dodin_mathematical_1986]
     def viscosity(self, B, E, R, T, b, shear_stress_power):
         """ 
         Prediction of the viscosity of melt polymer
