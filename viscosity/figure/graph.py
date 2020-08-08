@@ -18,6 +18,8 @@ class Graph:
         
 
     def viscosity_as_a_function_of_temperature_and_shear_stress(self, deck, polymer, model, features):
+        # Prediction of the melt viscosity as a function of the temperature and the shear stress.
+        # Draw the graph of the log(melt viscosity) as a function of the shear stress to the power of 1/2 for differents temperatures
         
         T = [463, 483, 503, 533, 553]
         T = numpy.array(T)

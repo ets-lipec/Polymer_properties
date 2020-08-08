@@ -23,7 +23,8 @@ class Model:
 
     def viscosity(self, B, E, R, T, b, shear_stress_power):
         """ 
-        valid for all polymers
+        Prediction of the viscosity of melt polymer
+        Valid for all polymers
         
         :Input:  
         - *B, b* : constant of the material
