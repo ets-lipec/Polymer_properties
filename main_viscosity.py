@@ -8,4 +8,6 @@ polymer = Polymer(deck)
 
 model = Model(deck, polymer)
 
-graph = Graph(deck, polymer, model)
+features = GraphFeatures(deck)
+
+graph = Graph(deck, polymer, model, features)

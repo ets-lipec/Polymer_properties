@@ -7,5 +7,6 @@ Polymers:
 Constants:
   Gas Constant: 8.314
 
-Discretisation: 20
+Graphic features:
+  Discretisation: 20
   
