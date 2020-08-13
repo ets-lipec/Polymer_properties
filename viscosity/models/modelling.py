@@ -22,7 +22,7 @@ class Model:
         self.polymer = polymer
 
 
-    # [dodin_mathematical_1986]
+    # from [dodin_mathematical_1986] see biblio.bib
     def viscosity(self, B, E, R, T, b, shear_stress_power):
         """ 
         Prediction of the viscosity of melt polymer
