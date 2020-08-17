@@ -4,6 +4,14 @@ Polymers:
   Constant b: 0.0043
   Activation Energy: 45522
 
+  Constants for Carreau-Arrhenius model:
+    Name: 'Polypropylene'
+    Constant k1: 1.386
+    Constant k2: 0.091
+    Constant k3: 0.68
+    Activation Energy: 427.198
+    Reference Temperature: 493
+
 Constants:
   Gas Constant: 8.314
 
