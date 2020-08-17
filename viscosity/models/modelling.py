@@ -1,16 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-"""
-Reference : 
-Mark G. Dodin Ph.D. (1986) 
-Mathematical Models of Polymer Melt Viscosity in Shearing Flow.
-Polystyrene and Polypropylene Melts—2
-International Journal of Polymeric Materials and Polymeric Biomaterials
-1:3, 185-203,
-DOI: 10.1080/00914038608078660
-"""
-
 from math import exp
 
 
@@ -43,8 +33,8 @@ class Model:
         return B*exp(E/(R*T)-b*shear_stress_power)
 
 
-    # Model number 1
-    # osswald_polymer_2006
+    # Model number 2
+    # from [osswald_polymer_2006] see biblio.bib
     def arrhenius_shift(self, temperature, activation_energy, ref_temperature, R):
         """ 
         Prediction of the Arrhenius shift
@@ -62,7 +52,7 @@ class Model:
         return exp((activation_energy / R * (1. / temperature - 1. / ref_temperature)))
         
     # The Bird-Carreau-Yasuda Model
-    # osswald_polymer_2006
+    # from [osswald_polymer_2006] see biblio.bib
     def viscosity_bird(self, k1, k2, k3, arrhenius_shift, strain_rate):
         """ 
         Prediction of the melt viscosity
