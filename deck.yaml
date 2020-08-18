@@ -17,4 +17,24 @@ Constants:
 
 Graphic features:
   Discretisation: 20
+
+Surface Tension:
+  Name: 'Polypropylene'
+  Number of Carbon: 3
+  Number of Hydrogen: 6
+  Number of Oxygen: 0
+  Contribution to Parachor of Carbon: 9.0
+  Contribution to Parachor of Hydrogen: 15.5
+  Contribution to Parachor of Oxygen: 19.8
+  Molecular Weight of Carbon: 12
+  Molecular Weight of Hydrogen: 1
+  Molecular Weight of Oxygen: 16
+  Density: 900
+
+
+
+
+
+
+
   

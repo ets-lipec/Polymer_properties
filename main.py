@@ -1,4 +1,6 @@
 from viscosity import *
+from surface_tension import *
+
 
 cwd = os.getcwd()
 
