@@ -1,5 +1,5 @@
 # Polymer properties
-
+In progress
 ## Viscosity
 
 ### Compute the viscosity as a function of the temperature and the shear stress  
